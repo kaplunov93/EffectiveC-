@@ -46,6 +46,7 @@
     <Compile Include="CastsOperators.cs" />
     <Compile Include="Conditional.cs" />
     <Compile Include="const.cs" />
+    <Compile Include="equality.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="toString.cs" />
