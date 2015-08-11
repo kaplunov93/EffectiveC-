@@ -53,6 +53,7 @@
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryVersusLoop.cs" />
+    <Compile Include="Simplier.cs" />
     <Compile Include="toString.cs" />
   </ItemGroup>
   <ItemGroup>
