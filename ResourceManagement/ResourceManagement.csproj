@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonConstructor.cs" />
+    <Compile Include="DesposeImpl.cs" />
     <Compile Include="Disposing.cs" />
     <Compile Include="Initializers.cs" />
     <Compile Include="ObjManagment.cs" />
