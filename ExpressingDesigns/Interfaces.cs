@@ -30,10 +30,7 @@ namespace ExpressingDesigns
 
             public Address Address
             {
-                get
-                {
-                    throw new NotImplementedException();
-                }
+                get;
             }
 
             public string Name
@@ -46,10 +43,7 @@ namespace ExpressingDesigns
 
             public PhoneNumber Number
             {
-                get
-                {
-                    throw new NotImplementedException();
-                }
+                get;
             }
         }
 
@@ -60,10 +54,7 @@ namespace ExpressingDesigns
 
             public Address Address
             {
-                get
-                {
-                    throw new NotImplementedException();
-                }
+                get;
             }
 
             public string Name
@@ -76,10 +67,7 @@ namespace ExpressingDesigns
 
             public PhoneNumber Number
             {
-                get
-                {
-                    throw new NotImplementedException();
-                }
+                get;
             }
         }
 
@@ -87,10 +75,7 @@ namespace ExpressingDesigns
         {
             public string Name
             {
-                get
-                {
-                    return SchoolName;
-                }
+                get;
             }
 
             public PhoneNumber Number
@@ -103,10 +88,7 @@ namespace ExpressingDesigns
 
             public Address Address
             {
-                get
-                {
-                    throw new NotImplementedException();
-                }
+                get;
             }
 
             private string SchoolName;
