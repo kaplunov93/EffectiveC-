@@ -46,6 +46,7 @@
     <Compile Include="CommonConstructor.cs" />
     <Compile Include="DesposeImpl.cs" />
     <Compile Include="Disposing.cs" />
+    <Compile Include="Immutable.cs" />
     <Compile Include="Initializers.cs" />
     <Compile Include="ObjManagment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
