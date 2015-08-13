@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceVersusValue.cs" />
     <Compile Include="StaticObj.cs" />
+    <Compile Include="ZeroAsState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
