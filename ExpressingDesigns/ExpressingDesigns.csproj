@@ -48,6 +48,7 @@
     <Compile Include="Events.cs" />
     <Compile Include="InterfaceMethods.cs" />
     <Compile Include="Interfaces.cs" />
+    <Compile Include="Serialization.cs" />
     <Compile Include="Visibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
