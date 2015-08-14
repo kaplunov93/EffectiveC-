@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegates.cs" />
+    <Compile Include="Events.cs" />
     <Compile Include="InterfaceMethods.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="Visibility.cs" />
