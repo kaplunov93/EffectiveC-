@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataMode.cs" />
     <Compile Include="Delegates.cs" />
     <Compile Include="Events.cs" />
     <Compile Include="InterfaceMethods.cs" />
