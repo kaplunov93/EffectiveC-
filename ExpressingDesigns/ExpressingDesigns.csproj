@@ -50,6 +50,7 @@
     <Compile Include="Interfaces.cs" />
     <Compile Include="Serialization.cs" />
     <Compile Include="TransactionsMinimize.cs" />
+    <Compile Include="Variance.cs" />
     <Compile Include="Visibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
