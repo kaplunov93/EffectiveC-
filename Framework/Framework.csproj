@@ -47,6 +47,7 @@
     <Compile Include="Comparison.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="newModifier.cs" />
+    <Compile Include="Overloads.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
