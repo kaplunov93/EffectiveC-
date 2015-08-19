@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressingDesigns", "..\Exp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "..\Framework\Framework.csproj", "{9CC58306-E990-46EA-9B27-BC3E412FE7E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "..\DynamicProgramming\DynamicProgramming.csproj", "{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9CC58306-E990-46EA-9B27-BC3E412FE7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC58306-E990-46EA-9B27-BC3E412FE7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC58306-E990-46EA-9B27-BC3E412FE7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
