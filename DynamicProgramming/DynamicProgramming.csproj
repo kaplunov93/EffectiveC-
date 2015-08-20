@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Conversation.cs" />
     <Compile Include="DynamicAsParam.cs" />
+    <Compile Include="DynamicObjects.cs" />
     <Compile Include="Understanding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
