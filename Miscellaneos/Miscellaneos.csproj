@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoxAndUnBox.cs" />
+    <Compile Include="NoExitException.cs" />
     <Compile Include="PersonalException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
