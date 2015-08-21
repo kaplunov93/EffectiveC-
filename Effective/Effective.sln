@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "..\Framework\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "..\DynamicProgramming\DynamicProgramming.csproj", "{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miscellaneos", "..\Miscellaneos\Miscellaneos.csproj", "{DEEB924D-31A4-4928-A530-039DFBCF97D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD1F819-E3C6-4B00-BE4A-314D0ED4D042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEB924D-31A4-4928-A530-039DFBCF97D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEB924D-31A4-4928-A530-039DFBCF97D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEB924D-31A4-4928-A530-039DFBCF97D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEB924D-31A4-4928-A530-039DFBCF97D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
