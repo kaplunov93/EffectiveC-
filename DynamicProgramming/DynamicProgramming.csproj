@@ -48,6 +48,7 @@
     <Compile Include="DynamicObjects.cs" />
     <Compile Include="ExpressionAPI.cs" />
     <Compile Include="Inotify.cs" />
+    <Compile Include="MinDynToUser.cs" />
     <Compile Include="Understanding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
