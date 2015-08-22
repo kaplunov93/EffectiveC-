@@ -2,12 +2,60 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Framework
 {
     namespace ParallelException
     {
+
+        /// <summary>
+        /// This new code that work with exceptions in some Threads Tasks(Like 1 task one algorithm)
+        /// </summary>
+        class Program
+        {
+
+
+            static void Main(string[] args)
+            {
+                try
+                {
+                    Parallel.Invoke(
+                        () =>
+                        {
+                            Console.WriteLine("Start Task 1");
+                            Thread.Sleep(5000);
+                            Console.WriteLine("Compelete Task 1");
+                        },
+                        () =>
+                        {
+                            Console.WriteLine("Start Task 2");
+                            int i = 0;
+                            Console.WriteLine(1 / i);
+                        },
+                        () =>
+                        {
+                            Console.WriteLine("Start Task 3");
+                            Thread.Sleep(1000);
+                            throw new InvalidOperationException("Task 3 tes Excepion");
+                        });
+                }
+                catch (AggregateException e)
+                {
+                    Console.WriteLine("\nOops We have ERRORs\n");
+                    foreach (var ex in e.InnerExceptions)
+                        Console.WriteLine(ex.Message);
+                }
+
+                Console.ReadKey();
+            }
+
+        }
+
+
+
+
         /*
         class Client
         {
@@ -53,6 +101,6 @@ namespace Framework
         }
         */
 
-        
+
     }
 }
